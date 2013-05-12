@@ -5,7 +5,7 @@ $db['user']     = 'pouet';
 $db['password'] = 'pouet';
 $db['database'] = 'pouet';
 
-$sceneidUrl = "http://localhost/some/endpoint";
+$sceneidUrl = "http://$_SERVER[HTTP_HOST]/fake-sceneid.php";
 $sceneidLogin = "pouet";
 $sceneidPassword = md5("pouet");
 
